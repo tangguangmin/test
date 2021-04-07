@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CD	ftp.cpp	/^FTP_API CFTPManager::CD(const std::string &path)$/;"	f	class:CFTPManager
+CFTPManager	ftp.cpp	/^CFTPManager::CFTPManager(void): m_bLogin(false)$/;"	f	class:CFTPManager
+CFTPManager	ftp.h	/^class CFTPManager $/;"	c
+CLIENT_H_	ftp.h	2;"	d
+Close	ftp.cpp	/^void CFTPManager::Close(int sock)$/;"	f	class:CFTPManager
+Connect	ftp.cpp	/^FTP_API CFTPManager::Connect(int socketfd, const std::string &serverIP, unsigned int nPort)$/;"	f	class:CFTPManager
+CreateDirectory	ftp.cpp	/^FTP_API CFTPManager::CreateDirectory(const std::string &strRemoteDir)$/;"	f	class:CFTPManager
+DeleteDirectory	ftp.cpp	/^FTP_API CFTPManager::DeleteDirectory(const std::string &strRemoteDir)$/;"	f	class:CFTPManager
+DeleteFile	ftp.cpp	/^FTP_API CFTPManager::DeleteFile(const std::string &strRemoteFile)$/;"	f	class:CFTPManager
+Dir	ftp.cpp	/^const std::string CFTPManager::Dir(const std::string &path)$/;"	f	class:CFTPManager
+FTP_API	ftp.h	24;"	d
+FTP_COMMAND_APPEND_FILE	ftp.h	52;"	d
+FTP_COMMAND_BASE	ftp.h	33;"	d
+FTP_COMMAND_CHANGE_DIRECTORY	ftp.h	42;"	d
+FTP_COMMAND_CREATE_DIRECTORY	ftp.h	45;"	d
+FTP_COMMAND_CURRENT_PATH	ftp.h	38;"	d
+FTP_COMMAND_DELETE_DIRECTORY	ftp.h	44;"	d
+FTP_COMMAND_DELETE_FILE	ftp.h	43;"	d
+FTP_COMMAND_DIR	ftp.h	41;"	d
+FTP_COMMAND_DOWNLOAD_FILE	ftp.h	50;"	d
+FTP_COMMAND_DOWNLOAD_POS	ftp.h	49;"	d
+FTP_COMMAND_END	ftp.h	34;"	d
+FTP_COMMAND_FILE_SIZE	ftp.h	48;"	d
+FTP_COMMAND_PASSWORD	ftp.h	36;"	d
+FTP_COMMAND_PSAV_MODE	ftp.h	40;"	d
+FTP_COMMAND_QUIT	ftp.h	37;"	d
+FTP_COMMAND_RENAME_BEGIN	ftp.h	46;"	d
+FTP_COMMAND_RENAME_END	ftp.h	47;"	d
+FTP_COMMAND_TYPE_MODE	ftp.h	39;"	d
+FTP_COMMAND_UPLOAD_FILE	ftp.h	51;"	d
+FTP_COMMAND_USERNAME	ftp.h	35;"	d
+FTP_DEFAULT_BUFFER	ftp.h	30;"	d
+FTP_DEFAULT_PATH	ftp.h	31;"	d
+FTP_DEFAULT_PORT	ftp.h	29;"	d
+FTP_PARAM_BASE	ftp.h	28;"	d
+Get	ftp.cpp	/^FTP_API CFTPManager::Get(const std::string &strRemoteFile, const std::string &strLocalFile)$/;"	f	class:CFTPManager
+INVALID_SOCKET	ftp.h	23;"	d
+MAX_PATH	ftp.h	25;"	d
+PWD	ftp.cpp	/^const std::string CFTPManager::PWD()$/;"	f	class:CFTPManager
+ParseString	ftp.cpp	/^FTP_API CFTPManager::ParseString(std::list<std::string> strArray, unsigned long & nPort ,std::string & strServerIp)$/;"	f	class:CFTPManager
+Pasv	ftp.cpp	/^const std::string CFTPManager::Pasv()$/;"	f	class:CFTPManager
+Put	ftp.cpp	/^FTP_API CFTPManager::Put(const std::string &strRemoteFile, const std::string &strLocalFile)$/;"	f	class:CFTPManager
+Rename	ftp.cpp	/^FTP_API CFTPManager::Rename(const std::string &strRemoteFile, const std::string &strNewFile)$/;"	f	class:CFTPManager
+Send	ftp.cpp	/^FTP_API CFTPManager::Send(int fd, const char *cmd, const size_t len)$/;"	f	class:CFTPManager
+Send	ftp.cpp	/^FTP_API CFTPManager::Send(int fd, const std::string &cmd)$/;"	f	class:CFTPManager
+SplitString	ftp.cpp	/^static int SplitString( std::string strSrc, std::list<std::string> &strArray , std::string strFlag)$/;"	f	file:
+ascii	ftp.h	/^		ascii,$/;"	e	enum:CFTPManager::type
+binary	ftp.h	/^		binary = 0x31,$/;"	e	enum:CFTPManager::type
+createDataLink	ftp.cpp	/^FTP_API CFTPManager::createDataLink(int data_fd)$/;"	f	class:CFTPManager
+createLocalFile	ftp.cpp	/^FILE *CFTPManager::createLocalFile(const std::string &strLocalFile)$/;"	f	class:CFTPManager
+downLoad	ftp.cpp	/^FTP_API CFTPManager::downLoad(const std::string &strRemoteFile, const std::string &strLocalFile, const int pos, const unsigned int length)$/;"	f	class:CFTPManager
+getData	ftp.cpp	/^FTP_API CFTPManager::getData(int fd, char *strBuf, unsigned long length)$/;"	f	class:CFTPManager
+getFileLength	ftp.cpp	/^long CFTPManager::getFileLength(const std::string &strRemoteFile)$/;"	f	class:CFTPManager
+inputPassWord	ftp.cpp	/^FTP_API CFTPManager::inputPassWord(const std::string &password)$/;"	f	class:CFTPManager
+inputUserName	ftp.cpp	/^FTP_API CFTPManager::inputUserName(const std::string &userName)$/;"	f	class:CFTPManager
+login2Server	ftp.cpp	/^FTP_API CFTPManager::login2Server(const std::string &serverIP)$/;"	f	class:CFTPManager
+m_bLogin	ftp.h	/^	bool	m_bLogin;$/;"	m	class:CFTPManager
+m_cmdSocket	ftp.h	/^	int		m_cmdSocket;$/;"	m	class:CFTPManager
+m_commandStr	ftp.h	/^	std::string m_commandStr;$/;"	m	class:CFTPManager
+m_nCurrentCommand	ftp.h	/^	unsigned int m_nCurrentCommand;$/;"	m	class:CFTPManager
+m_nServerPort	ftp.h	/^	unsigned int m_nServerPort;$/;"	m	class:CFTPManager
+m_strPassWord	ftp.h	/^	std::string m_strPassWord;$/;"	m	class:CFTPManager
+m_strResponse	ftp.h	/^	std::string m_strResponse;$/;"	m	class:CFTPManager
+m_strServerIP	ftp.h	/^	std::string m_strServerIP;$/;"	m	class:CFTPManager
+m_strUserName	ftp.h	/^	std::string m_strUserName;$/;"	m	class:CFTPManager
+parseCommand	ftp.cpp	/^const std::string CFTPManager::parseCommand(const unsigned int command, const std::string &strParam)$/;"	f	class:CFTPManager
+parseResponse	ftp.cpp	/^FTP_API CFTPManager::parseResponse(const std::string &str)$/;"	f	class:CFTPManager
+quitServer	ftp.cpp	/^FTP_API CFTPManager::quitServer(void)$/;"	f	class:CFTPManager
+serverResponse	ftp.cpp	/^const std::string CFTPManager::serverResponse(int sockfd)$/;"	f	class:CFTPManager
+setTransferMode	ftp.cpp	/^FTP_API CFTPManager::setTransferMode(type mode)$/;"	f	class:CFTPManager
+trace	ftp.h	26;"	d
+type	ftp.h	/^	enum type {$/;"	g	class:CFTPManager
+~CFTPManager	ftp.cpp	/^CFTPManager::~CFTPManager(void)$/;"	f	class:CFTPManager
